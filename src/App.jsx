@@ -6,7 +6,7 @@ import { AuthProvider } from "./context/Auth";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dish-dash">
       <AuthProvider>
         <MainLayout>
           <Routes>
